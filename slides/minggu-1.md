@@ -32,6 +32,41 @@ _paginate: skip
 
 ---
 
+## Mobile OS Market Share Worldwide
+
+<!-- _footer: https://gs.statcounter.com/os-market-share/mobile/worldwide -->
+
+
+![](images/minggu-2-2.png)
+
+
+---
+
+## Mobile OS Market Share in Indonesia
+
+<!-- 
+_footer: https://gs.statcounter.com/os-market-share/mobile/indonesia/#monthly-202308-202409-bar -->
+
+![](images/minggu-2-3.png)
+
+---
+
+## Pengguna Internet
+
+<!-- _footer: https://tekno.kompas.com/read/2022/05/09/19300027/lebih-dari-90-persen-warganet-indonesia-mengakses-internet-lewat-ponsel -->
+
+![](images/minggu-2-4.png)
+
+---
+
+## Distribution of web traffic
+
+<!-- _footer: https://www.statista.com/statistics/1362949/indonesia-share-of-web-traffic-by-device/#:~:text=As%20of%20December%202023%2C%20around,and%20desktop%20computers%20that%20year. -->
+
+![](images/minggu-2-5.png)
+
+---
+
 ## Jenis-Jenis Aplikasi Mobile
 
 --- 
@@ -117,26 +152,6 @@ React Native: Framework yang digunakan untuk membuat aplikasi seperti Facebook d
 | **Aspek**                | **Native App**                                                                             | **Hybrid App**                                                                          | **Cross-Platform App**                                                                                              |
 | ------------------------ | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **Kekurangan**           | - Memerlukan dua pengembangan terpisah <br> - Biaya lebih tinggi                           | - Kinerja tidak seoptimal native <br> - Akses fitur terbatas                            | - Mungkin tidak seoptimal native <br> - Ketergantungan pada framework                                               |
-
-
----
-
-## Mobile OS Market Share Worldwide
-
-<!-- _footer: https://gs.statcounter.com/os-market-share/mobile/worldwide -->
-
-
-![](images/minggu-2-2.png)
-
-
----
-
-## Mobile OS Market Share in Indonesia
-
-<!-- 
-_footer: https://gs.statcounter.com/os-market-share/mobile/indonesia/#monthly-202308-202409-bar -->
-
-![](images/minggu-2-3.png)
 
 ---
 

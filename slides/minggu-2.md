@@ -58,9 +58,9 @@ JavaScript memiliki berbagai versi yang secara resmi diadopsi melalui standar EC
 
 ## Top programming language
 
-![](images/minggu-2-1.png)
+<!-- _footer: https://octoverse.github.com/2022/top-programming-languages -->
 
-source : https://octoverse.github.com/2022/top-programming-languages
+![](images/minggu-2-1.png)
 
 ---
 
