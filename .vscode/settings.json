@@ -1,0 +1,5 @@
+{
+  "markdown.marp.themes": [
+    "https://raw.githubusercontent.com/gymie/marp-themes/refs/heads/master/themes/marp-react-theme.css"
+  ]
+}
