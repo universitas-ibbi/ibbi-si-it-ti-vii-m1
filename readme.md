@@ -40,3 +40,15 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 - Async Code and Promises
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-2](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-2)
+
+### Minggu 3: Mobile Development Lifecycle
+
+- Identifikasi ide dan target pengguna
+- Perencanaan
+- Desain UI/UX
+- Pengembangan
+- Pengujian
+- Peluncuran
+- Pemeliharaan Pasca-Peluncuran
+
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-3](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-3)

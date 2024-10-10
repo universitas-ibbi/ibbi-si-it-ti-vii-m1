@@ -13,11 +13,9 @@ _class: lead
 _paginate: skip
 -->
 
-# Tahapan Pengembangan Aplikasi Mobile
-
----
-
+# Mobile Development Lifecycle 
 > use case Shoppe
+
 ---
 
 <!-- _class: lead
