@@ -1,11 +1,6 @@
-const mahasiswa = {
-    nama: "budi",
-    umur: 20,
-    email: "budi@microsoft.com",
-    telepon: "08123456789"
-};
+const kalkulator = require('./calculator.js');
 
-// const email = mahasiswa.email;
-const { email, umur } = mahasiswa;
-
-console.log(email, umur);
+// const hasil = kalkulator.tambah(10, 5);
+// const hasil = kalkulator.luasLingkaran(7);
+const hasil = kalkulator.konversiCtoF(100);
+console.log(hasil);
