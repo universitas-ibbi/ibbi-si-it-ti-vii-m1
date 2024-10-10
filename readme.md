@@ -43,12 +43,12 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 
 ### Minggu 3: Mobile Development Lifecycle
 
-- Identifikasi ide dan target pengguna
-- Perencanaan
+- Concept
+- Planning
 - Desain UI/UX
-- Pengembangan
-- Pengujian
-- Peluncuran
-- Pemeliharaan Pasca-Peluncuran
+- Development
+- Testing
+- Launch
+- Maintainence
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-3](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-3)

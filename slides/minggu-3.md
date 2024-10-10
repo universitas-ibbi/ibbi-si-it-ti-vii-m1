@@ -18,6 +18,16 @@ _paginate: skip
 
 ---
 
+1. Concept
+1. Planning
+1. Desain UI/UX
+1. Development
+1. Testing
+1. Launch
+1. Maintainence
+  
+---
+
 <!-- _class: lead
 _paginate: skip -->
 
