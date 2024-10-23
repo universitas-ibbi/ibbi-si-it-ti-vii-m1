@@ -66,4 +66,4 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 - Komponen TextInput: Digunakan untuk menerima input teks dari pengguna, sering dipakai dalam formulir dan pencarian, mendukung placeholder dan styling.
 - Penggunaan Props dan Komponen Dinamis: Props memungkinkan penyesuaian komponen, dan JSX mempermudah penulisan elemen UI yang dinamis dan interaktif.
 
-[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/mingg-4](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/mingg-4)
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-4](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-4)
