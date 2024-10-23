@@ -1,8 +1,8 @@
 ---
-title: Pemrograman Mobile (Minggu 3)
+title: Mobile Development Lifecycle 
 version: 1.0.0
 theme: react
-header: Pemrograman Mobile (Minggu 3)
+header: Mobile Development Lifecycle 
 footer: https://github.com/universitas-ibbi/ibbi-si-it-ti-vii-m1
 paginate: true
 marp: true

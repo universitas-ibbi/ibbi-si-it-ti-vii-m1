@@ -2,7 +2,7 @@
 title: React Native Component
 version: 1.0.0
 theme: react
-header: Pemrograman Mobile (Minggu 4)
+header: React Native Component
 footer: https://github.com/universitas-ibbi/ibbi-si-it-ti-vii-m1
 paginate: true
 marp: true
@@ -17,7 +17,7 @@ _paginate: skip
 
 ---
 
-## 1. Apa itu Komponen di React Native
+## Apa itu Komponen di React Native
 
 Komponen adalah blok penyusun utama dalam aplikasi React Native. Setiap bagian dari UI dibagi menjadi komponen-komponen kecil.
 
@@ -50,7 +50,7 @@ JSX (JavaScript XML) adalah sintaks khusus yang digunakan dalam React dan React 
 
 ---
 
-## 2. Pengenalan Komponen Built-in di React Native
+## Basic Components
 
 - `View`: Kontainer untuk menampung komponen lain.
 - `Text`: Digunakan untuk menampilkan teks.
@@ -65,112 +65,214 @@ JSX (JavaScript XML) adalah sintaks khusus yang digunakan dalam React dan React 
 
 ---
 
-## 3. Properti (Props) pada Komponen
+##  Properti (Props) pada Komponen
 
 Props (properties) adalah parameter yang diteruskan ke komponen untuk menyesuaikan tampilan atau perilaku komponen tersebut. Props bersifat immutable (tidak bisa diubah oleh komponen itu sendiri).
 
+```js
+<View>
+  <Text style={{ color: 'blue', fontSize: 20 }}>Hello, World!</Text>
+</View>
+```
 ---
 
-```javascript
-const WelcomeMessage = (props) => {
-  return <Text>Welcome, {props.name}!</Text>;
-};
+<!-- 
+_class: lead 
+_paginate: skip
+-->
+
+## View
+
+---
+
+## Apa Itu Komponen View?
+
+Komponen View adalah komponen dasar dalam React Native yang berfungsi sebagai kontainer untuk menyusun elemen UI lainnya.
+
+View digunakan untuk membuat layout, membungkus komponen, dan menerapkan styling pada grup elemen.
+
+---
+
+## Membuat Komponen View
+
+```js
+import React from 'react';
+import { View, Text } from 'react-native';
 
 const App = () => {
-  return <WelcomeMessage name="John" />;
-};
-```
-
----
-
-
-## 7. Styling Komponen
-
-Styling di React Native dilakukan menggunakan objek JavaScript dengan properti CSS yang sudah disesuaikan untuk React Native. React Native menggunakan Flexbox untuk pengaturan tata letak.
-
----
-
-```javascript
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-
-const StyledComponent = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Styled Text</Text>
+    <View>
     </View>
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    padding: 20,
-    backgroundColor: 'lightblue',
-    alignItems: 'center'
-  },
-  text: {
-    fontSize: 18,
-    color: 'white',
-  },
-});
-
-export default StyledComponent;
+export default App;
 ```
 
 ---
 
-## 8. Komponen List (FlatList dan SectionList)
+<!-- 
+_class: lead 
+_paginate: skip
+-->
 
-Untuk menampilkan data dalam bentuk daftar, React Native menyediakan komponen seperti `FlatList` dan `SectionList`. `FlatList` digunakan untuk list datar, sedangkan `SectionList` digunakan untuk list dengan bagian terpisah.
+## Text
 
 ---
 
-```javascript
+## Apa Itu Komponen Text?
+
+- Komponen Text adalah komponen dasar dalam React Native yang digunakan untuk menampilkan teks dalam antarmuka pengguna.
+- Komponen ini mendukung berbagai styling dan dapat digunakan di dalam komponen lain seperti View.
+
+---
+
+```js
 import React from 'react';
-import { FlatList, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 
-const DATA = [
-  { id: '1', title: 'Item 1' },
-  { id: '2', title: 'Item 2' },
-  { id: '3', title: 'Item 3' },
-];
-
-const FlatListExample = () => {
+const App = () => {
   return (
-    <FlatList
-      data={DATA}
-      keyExtractor={item => item.id}
-      renderItem={({ item }) => <Text>{item.title}</Text>}
-    />
+    <View>
+      <Text>Hello, World!</Text>
+    </View>
   );
 };
 
-export default FlatListExample;
+export default App;
 ```
 
 ---
 
-## 9. Komponen Touchables untuk Interaksi
+## Menambahkan Teks Dinamis
 
-Untuk area yang bisa di-klik, React Native menyediakan beberapa komponen touchable seperti `TouchableOpacity`, `TouchableHighlight`, dan `TouchableWithoutFeedback`.
+Anda dapat menambahkan teks dinamis dengan menyisipkan variabel JavaScript ke dalam komponen Text menggunakan kurung kurawal {}.
+
+```js
+const App = () => {
+  const name = 'John';
+  
+  return (
+    <View>
+      <Text>Hello, {name}!</Text>
+    </View>
+  );
+};
+```
 
 ---
 
-```javascript
-import React from 'react';
-import { TouchableOpacity, Text, View } from 'react-native';
+<!-- 
+_class: lead 
+_paginate: skip
+-->
 
-const TouchableExample = () => {
+## Image
+
+---
+
+## Apa Itu Komponen Image?
+
+- Komponen Image di React Native digunakan untuk menampilkan gambar dari berbagai sumber, seperti file lokal, URL, atau dari cache gambar di aplikasi.
+- Image adalah komponen utama untuk menampilkan elemen visual di aplikasi seluler.
+
+---
+
+## Menggunakan Komponen Image
+
+Untuk menggunakan komponen Image, Anda perlu mengimpornya dari react-native dan memberikan properti source untuk mengatur sumber gambar.
+
+```js
+import React from 'react';
+import { Image, View } from 'react-native';
+
+const App = () => {
   return (
-    <TouchableOpacity onPress={() => alert('Pressed!')}>
-      <View style={{ padding: 10, backgroundColor: 'blue' }}>
-        <Text style={{ color: 'white' }}>Press Me</Text>
-      </View>
-    </TouchableOpacity>
+    <View>
+      <Image source={{ uri: 'https://example.com/myimage.jpg' }} style={{ width: 200, height: 200 }} />
+    </View>
   );
 };
 
-export default TouchableExample;
+export default App;
 ```
 
+---
 
+## Menampilkan Gambar Lokal
+
+Anda bisa menampilkan gambar lokal yang ada di proyek dengan menggunakan require() untuk mengimpor gambar.
+
+```js
+const App = () => {
+  return (
+    <View>
+      <Image source={require('./assets/myimage.png')} style={{ width: 200, height: 200 }} />
+    </View>
+  );
+};
+```
+
+---
+
+## Properti pada Komponen Image
+
+Komponen Image mendukung beberapa properti untuk mengatur tampilannya, di antaranya:
+
+- source: Sumber gambar, bisa dari URI atau require().
+- resizeMode: Mengatur bagaimana gambar diubah ukurannya agar sesuai dengan tampilan. 
+  
+---
+
+## Nilai `resizeMode` yang didukung meliputi:
+
+- `cover`: Gambar memenuhi seluruh area sambil mempertahankan rasio aspek.
+- `contain`: Gambar akan sepenuhnya ditampilkan tanpa dipotong.
+- `stretch`: Gambar akan ditarik untuk mengisi dimensi yang diberikan.
+- `repeat`: Gambar akan diulang.
+- `center`: Gambar ditempatkan di tengah tanpa diubah ukurannya.
+
+---
+
+<!-- 
+_class: lead 
+_paginate: skip
+-->
+
+## TextInput
+
+---
+
+## Apa Itu TextInput?
+
+- TextInput adalah komponen di React Native yang digunakan untuk menerima input teks dari pengguna.
+- Komponen ini sering digunakan dalam formulir, pencarian, dan fitur yang membutuhkan interaksi dengan pengguna untuk memasukkan teks.
+- TextInput mendukung berbagai fitur seperti placeholder, gaya, kontrol panjang teks, dan pengelolaan input secara real-time.
+
+---
+
+##  Cara Menggunakan TextInput
+
+Untuk menggunakan TextInput, Anda harus mengimpornya dari react-native dan menggunakannya di dalam komponen Anda.
+
+---
+
+```js
+import React, { useState } from 'react';
+import { TextInput, View } from 'react-native';
+
+const App = () => {
+
+  return (
+    <View>
+      <TextInput 
+        style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
+        placeholder="Enter text"
+      />
+    </View>
+  );
+};
+
+export default App;
+
+```

@@ -1,8 +1,8 @@
 ---
-title: Pemrograman Mobile (Minggu 1)
+title: Pengantar Pemrograman Mobile
 version: 1.0.0
 theme: react
-header: Pemrograman Mobile (Minggu 1)
+header: Pengantar Pemrograman Mobile
 footer: https://github.com/universitas-ibbi/ibbi-si-it-ti-vii-m1
 paginate: true
 marp: true

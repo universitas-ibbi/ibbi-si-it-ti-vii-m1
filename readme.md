@@ -52,3 +52,18 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 - Maintainence
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-3](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-3)
+
+### Minggu 4 : React Native Component
+
+- Definisi Komponen di React Native: Komponen adalah blok penyusun UI yang reusable, membantu membangun antarmuka dengan elemen kecil.
+- JSX (JavaScript XML): Sintaks khusus untuk mendeskripsikan elemen UI dalam React Native, mirip dengan HTML di dalam JavaScript.
+- Komponen Dasar: Termasuk View (kontainer), Text (teks), Image (gambar), ScrollView (konten scroll), TextInput (input teks), dan Button.
+- Properti (Props): Parameter yang diteruskan ke komponen untuk menyesuaikan tampilan atau perilaku; immutable dan tidak bisa diubah oleh komponen.
+- Komponen View: Digunakan sebagai kontainer dasar untuk layout dan membungkus elemen UI lainnya.
+- Komponen Text: Menampilkan teks dengan dukungan styling, bisa menampilkan teks dinamis menggunakan variabel JavaScript.
+- Komponen Image: Menampilkan gambar dari URL, file lokal, atau cache, dengan properti seperti resizeMode untuk mengatur ukuran gambar.
+- Properti resizeMode: Mengatur bagaimana gambar ditampilkan, seperti cover, contain, stretch, repeat, dan center.
+- Komponen TextInput: Digunakan untuk menerima input teks dari pengguna, sering dipakai dalam formulir dan pencarian, mendukung placeholder dan styling.
+- Penggunaan Props dan Komponen Dinamis: Props memungkinkan penyesuaian komponen, dan JSX mempermudah penulisan elemen UI yang dinamis dan interaktif.
+
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/mingg-4](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/mingg-4)

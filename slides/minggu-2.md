@@ -1,8 +1,8 @@
 ---
-title: Pemrograman Mobile (Minggu 2)
+title: Javascript
 version: 1.0.0
 theme: react
-header: Pemrograman Mobile (Minggu 2)
+header: Javascript
 footer: https://github.com/universitas-ibbi/ibbi-si-it-ti-vii-m1
 paginate: true
 marp: true
