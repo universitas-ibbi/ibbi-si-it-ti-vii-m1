@@ -67,3 +67,26 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 - Penggunaan Props dan Komponen Dinamis: Props memungkinkan penyesuaian komponen, dan JSX mempermudah penulisan elemen UI yang dinamis dan interaktif.
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-4](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-4)
+
+### Minggu 5 : 
+
+- Dasar-dasar Styling di React Native
+- Pendekatan Styling di React Native
+- Inline Styling
+- Kelebihan Inline Styling
+- Kekurangan Inline Styling
+- Styling dengan StyleSheet.create()
+- Kelebihan StyleSheet.create()
+- Kekurangan StyleSheet.create()
+- External Styling
+- Contoh Struktur untuk External Styling
+- Kelebihan External Styling
+- Kekurangan External Styling
+- Perbandingan Pendekatan Styling
+- Styling Width dan Height UI di React Native
+- Pengenalan Width dan Height
+- Menggunakan Nilai Tetap (Fixed Values)
+- Menggunakan Persentase
+- Menggunakan Dimensions untuk Responsif
+
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-5)
