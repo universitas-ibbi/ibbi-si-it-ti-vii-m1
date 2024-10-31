@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, Button, ScrollView } from 'react-native';
+import { View, Text, Image, ScrollView } from 'react-native';
 
 export default function Index() {
   return (
@@ -211,15 +211,6 @@ export default function Index() {
         }}>Address: 123 Main St, Anytown, USA</Text>
       </View>
       
-      {/* Edit Profile Button */}
-      <View style={{
-        marginTop: 30,
-        width: '100%',
-        borderRadius: 8,
-        overflow: 'hidden'
-      }}>
-        <Button title="Edit Profile" onPress={() => alert('Edit Profile')} />
-      </View>
     </ScrollView>
   );
 };
