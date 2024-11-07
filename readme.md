@@ -68,7 +68,7 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-4](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-4)
 
-### Minggu 5 : 
+### Minggu 5 : Styling
 
 - Dasar-dasar Styling di React Native
 - Pendekatan Styling di React Native
@@ -82,11 +82,15 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 - Contoh Struktur untuk External Styling
 - Kelebihan External Styling
 - Kekurangan External Styling
-- Perbandingan Pendekatan Styling
+
+
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-5)
+
+### Minggu 6 : Layouting
 - Styling Width dan Height UI di React Native
 - Pengenalan Width dan Height
 - Menggunakan Nilai Tetap (Fixed Values)
 - Menggunakan Persentase
-- Menggunakan Dimensions untuk Responsif
+- Flexbox
 
-[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-5)
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-6](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-6)
