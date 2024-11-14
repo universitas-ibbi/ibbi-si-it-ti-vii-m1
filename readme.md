@@ -94,3 +94,12 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 - Flexbox
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-6](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-6)
+
+### Minggu 7 : Custom Component
+
+- Pengertian dan Kegunaan Custom Component di React Native
+- Cara Membuat Custom Component Sederhana
+- Menerima Props di Custom Component
+- Default Props dan Prop Types pada Custom Component
+
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-7](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-7)
