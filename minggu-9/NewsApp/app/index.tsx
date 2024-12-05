@@ -13,22 +13,26 @@ export default function App() {
 		{
 			id: 1,
 			judul: "Judul Berita 1",
-			isi: "Berita 1"
+			isi: "Berita 1",
+			gambar: require("./images/berita.jpg")
 		},
 		{
 			id: 2,
 			judul: "Judul Berita 2",
-			isi: "berita 2"
+			isi: "berita 2",
+			gambar: require("./images/berita.jpg")
 		},
 		{
 			id: 3,
 			judul: "Judul Berita 3",
-			isi: "berita 3"
+			isi: "berita 3",
+			gambar: require("./images/berita.jpg")
 		},
 		{
 			id: 4,
 			judul: "Medan Banjir",
-			isi: "Hujan terus, medan jadi banjir 1 meter"
+			isi: "Hujan terus, medan jadi banjir 1 meter",
+			gambar: require("./images/berita.jpg")
 		}
 	];
 
@@ -63,8 +67,9 @@ return (
 						return (
 							<View style={styles.artikelBerita}> 
 								<Image
+										resizeMode='cover'
 										style={styles.gambarBerita}
-										source={require("./images/berita.jpg")} />
+										source={item.gambar} />
 								<Text style={styles.judulBerita}>{item.judul}</Text>
 								<Text
 										style={styles.teksBerita}

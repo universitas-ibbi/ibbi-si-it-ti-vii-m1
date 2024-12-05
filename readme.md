@@ -103,3 +103,15 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 - Default Props dan Prop Types pada Custom Component
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-9](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-9)
+
+### Minggu 10 : Screen Navigation
+
+- Pengenalan Expo Router
+- Membuat Halaman dengan Expo Router
+- Konvensi Routing Berbasis File pada Expo Router
+- Rute Dinamis pada Expo Router
+- Navigasi Antar Halaman dengan Komponen Link
+- Menautkan ke Rute Dinamis dengan Query Parameters
+
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-10](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-10)
+
