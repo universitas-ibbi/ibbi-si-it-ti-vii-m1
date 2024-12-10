@@ -43,15 +43,9 @@ return (
 		<ScrollView horizontal
 			style={styles.containerGambar}
 		>
-			<Image source={
-					require("./images/berita.jpg")
-			} style={styles.gambarHightlight} />
-			<Image source={
-				require("./images/berita.jpg")
-			} style={styles.gambarHightlight} />
-			<Image source={
-				require("./images/berita.jpg")
-			} style={styles.gambarHightlight} />
+			<GambarBerita gambar={require("./images/berita.jpg")} />
+			<GambarBerita gambar={require("./images/berita.jpg")} />
+			<GambarBerita gambar={require("./images/berita.jpg")} />
 		</ScrollView>
 
 		<View style={styles.navigasi}>
@@ -81,6 +75,18 @@ return (
 		</View>
 	</ScrollView>
 )
+}
+
+type GambarBeritaProps = {
+	gambar: any
+}
+
+function GambarBerita(props: GambarBeritaProps) {
+	return (
+		<Image source={
+					props.gambar
+			} style={styles.gambarHightlight} />
+	)
 }
 
 
