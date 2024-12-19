@@ -115,3 +115,14 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-10](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-10)
 
+### Minggu 11 : State
+
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-11](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-11)
+
+
+
+### Minggu 15 : Project UAS
+
+[Kriteria Project UAS](uas/readme.md)
+
+[Form Submission Judul Project](https://forms.gle/ftJ75hPZeQKa1dKA7)
