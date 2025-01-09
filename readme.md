@@ -113,7 +113,7 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 - Navigasi Antar Halaman dengan Komponen Link
 - Menautkan ke Rute Dinamis dengan Query Parameters
 
-[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-10](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-10)
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-10](https://universitas-ibbi.******gi**th**ub**.io/ibbi-si-it-ti-vii-m1/minggu-10)
 
 ### Minggu 11 : State
 
@@ -128,3 +128,5 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 [Kriteria Project UAS](uas/readme.md)
 
 [Form Submission Judul Project](https://forms.gle/ftJ75hPZeQKa1dKA7)
+
+[Form Submission Design Wireframe Figma](https://forms.gle/SyNfiahWQjxHVbA49)
