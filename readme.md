@@ -119,7 +119,9 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-11](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-11)
 
+## Minggu 12 : AsyncStorage
 
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-12](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-12)
 
 ### Minggu 15 : Project UAS
 
