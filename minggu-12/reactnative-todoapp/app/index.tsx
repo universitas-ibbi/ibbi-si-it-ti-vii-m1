@@ -8,11 +8,7 @@ type Todo = {
 };
 
 export default function Index() {
-  const [todos, setTodo] = useState<Todo[]>([
-    { id: 1, text: "Learn React", completed: false },
-    { id: 2, text: "Learn React Native", completed: false },
-    { id: 3, text: "Build a React Native app", completed: false },
-  ]);
+  const [todos, setTodo] = useState<Todo[]>([]);
   const [newTodo, setNewTodo] = useState<string>("");
 
   const addTodo = () => {
@@ -48,7 +44,7 @@ export default function Index() {
         onChangeText={setNewTodo}
       />
       <Button title="Add Todo" color={"green"} 
-        onPress={() => addTodo}/>
+        onPress={addTodo}/>
       <View style={styles.buttonContainer}>
         <View style={styles.button}>
           <Button title="All" />
