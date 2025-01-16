@@ -105,7 +105,7 @@ axios.get('https://api.example.com/user', {
 
 ---
 
-## 9. Testing dan Debugging API
+## Testing dan Debugging API
 
 - **Postman**: Alat untuk menguji endpoint API.
 - **Insomnia**: Alternatif untuk Postman dengan antarmuka sederhana.
