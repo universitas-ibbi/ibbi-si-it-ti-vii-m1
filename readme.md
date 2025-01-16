@@ -123,6 +123,13 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 
 [https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-12](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-12)
 
+## Minggu 13 : API
+
+[https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-13](https://universitas-ibbi.github.io/ibbi-si-it-ti-vii-m1/minggu-13)
+
+## Minggu 14 : Build
+
+
 ### Minggu 15 : Project UAS
 
 [Kriteria Project UAS](uas/readme.md)
