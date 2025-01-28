@@ -18,9 +18,9 @@ const NewsList = () => {
   useEffect(() => {
     const fetchNews = async () => {
       // const newsArticles = NewsData().articles;
-      const response = await axios.get(`https://newsapi.org/v2/top-headlines`, {
+      const response = await axios.get(`https://newsapi.org/v2/everything`, {
         params: {
-          country: 'us',
+          q: 'crypto',
           apiKey: '08548bde1d0e44d58d87aca53a4b45f9',
         },
       });

@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react-native-newsapp-api",
-    "slug": "react-native-newsapp-api",
+    "slug": "newsapp-crypto-api",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gymie.newsappcryptoapi"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ec01e637-0285-47f7-83b2-f0daf9b48f82"
+      }
+    },
+    "owner": "gymie"
   }
 }
