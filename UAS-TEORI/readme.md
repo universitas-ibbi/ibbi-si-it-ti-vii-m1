@@ -1,0 +1,23 @@
+# SOAL UAS TEORI
+
+- Jelaskan konsep dasar pemrograman mobile dan perbedaan utama antara aplikasi *native*, *hybrid*, dan *cross-platform*!
+- Apa keunggulan React Native dibandingkan framework pemrograman mobile lainnya? Jelaskan dengan contoh!
+- Sebutkan dan jelaskan proses pengembangan aplikasi dalam *mobile development lifecycle*!
+- Apa peran komponen dalam React Native, dan mengapa komponen merupakan elemen penting dalam pengembangan aplikasi?
+- Jelaskan perbedaan antara *functional components* dan *class components* di React Native, beserta contoh penggunaannya!
+- Berikan contoh implementasi styling sederhana menggunakan `StyleSheet.create()` di React Native untuk membuat tampilan tombol berwarna biru!
+- Apa yang dimaksud dengan layouting menggunakan *Flexbox* di React Native? Jelaskan dengan contoh!
+- Bagaimana cara mengatur posisi elemen dengan properti `justifyContent` dan `alignItems` dalam Flexbox? Berikan kode contoh!
+- Apa manfaat dari membuat *custom components* di React Native? Jelaskan dan berikan contoh pembuatan komponen sederhana!
+- Jelaskan peran dan fungsi *navigation* dalam React Native, serta perbedaan antara *stack navigation* dan *tab navigation*!
+- Bagaimana cara menggunakan React Navigation untuk berpindah antar layar? Berikan kode contoh sederhana!
+- Apa itu *state* dalam React Native? Jelaskan bagaimana *state* digunakan untuk membuat antarmuka yang interaktif dengan kode contoh!
+- Jelaskan cara kerja dan fungsi AsyncStorage dalam React Native untuk menyimpan data lokal!
+- Berikan contoh implementasi sederhana penyimpanan dan pengambilan data menggunakan AsyncStorage!
+- Apa perbedaan antara *state* dan *props* dalam React Native? Berikan contoh penggunaannya!
+- Jelaskan langkah-langkah untuk mengintegrasikan data dari API ke dalam aplikasi React Native dengan kode contoh!
+- Apa itu *fetch* dalam JavaScript, dan bagaimana cara menggunakannya untuk mengambil data dari API di React Native?
+- Sebutkan beberapa fitur native yang dapat diintegrasikan dengan aplikasi React Native dan cara penggunaannya!
+- Jelaskan langkah-langkah untuk melakukan *build* dan deployment aplikasi React Native ke platform Android dan iOS!
+- Apa saja tantangan yang biasanya dihadapi dalam proses pengembangan aplikasi mobile menggunakan React Native, dan bagaimana cara mengatasinya?
+- Pelajari contoh fungsi dari kode yang pernah kita pelajari dalam project perkuliahan kita.

@@ -137,3 +137,7 @@ Mata kuliah ini bertujuan untuk memberikan pemahaman dan keterampilan dalam peng
 [Form Submission Judul Project](https://forms.gle/ftJ75hPZeQKa1dKA7)
 
 [Form Submission Design Wireframe Figma](https://forms.gle/SyNfiahWQjxHVbA49)
+
+### SOAL UAS TEORI
+
+[Link Soal UAS Teori](./UAS-TEORI/readme.md)
